@@ -1,0 +1,14 @@
+nav a{
+    float:left;
+    display:block;
+    text-align: center;
+    padding:16px 16px;
+    text-decoration:none;
+    color:aliceblue;
+    background-color: rgb(171, 61, 145);
+}
+
+nav a:hover{
+    background-color: rgb(208, 77, 177);
+    color:rgb(132, 39, 110)
+}
