@@ -20,6 +20,30 @@ body{
     line-height: 1.7;
     overflow-x:hidden;
 }
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+header{
+    background:#1b1306;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+    padding: 10px 0;
+    transition:all 0.4s ease;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    display:flex;
+    align-items:center;
+}
 /*nav a{
     float:left;
     display:block;
