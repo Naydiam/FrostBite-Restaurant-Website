@@ -1,4 +1,26 @@
-nav a{
+:root{
+    --ice-cream-green: #a0ab44;
+    --ice-cream-pink: #f8bfb9;
+    --ice-cream-light: #f9f2e2;
+    --ice-cream-deep-cream: #f8bd76;
+    --ice-cream-medium: #b26c3e;
+    --text-dark:#2C2416;
+    --text-light:#f3f3f3;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    background: var(--ice-cream-deep-cream);
+    color:var(--text-dark);
+    line-height: 1.7;
+    overflow-x:hidden;
+}
+/*nav a{
     float:left;
     display:block;
     text-align: center;
@@ -11,4 +33,4 @@ nav a{
 nav a:hover{
     background-color: rgb(208, 77, 177);
     color:rgb(132, 39, 110)
-}
+}*/
