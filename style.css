@@ -76,17 +76,16 @@ nav a{
     padding: 5px 0;
     transition: all 0.3s ease;
 }
-/*nav a{
-    float:left;
-    display:block;
-    text-align: center;
-    padding:16px 16px;
-    text-decoration:none;
-    color:aliceblue;
-    background-color: rgb(171, 61, 145);
-}
 
-nav a:hover{
-    background-color: rgb(208, 77, 177);
-    color:rgb(132, 39, 110)
-}*/
+   
+
+nav a:after{
+    content: '';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:0; 
+    height: 2px;
+    background:var(--ice-cream-deep-cream);
+    transition:width 0.3s ease;
+}
