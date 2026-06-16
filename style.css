@@ -52,14 +52,29 @@ header{
     font-size: 28px;
 }
 .logo-text{
-    font-family:'Playfair Display', serif;
+    font-family:'Playfair Display';
     font-size: 28px;
     font-weight:900;
-    color:var(--ice-cream-medium);
+    color:var(--ice-cream-green);
     letter-spacing:1px;
 }
 .logo-text span{
     color:var(--ice-cream-pink)
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+nav a{
+    text-decoration:none;
+    color:var(--ice-cream-deep-cream);
+    font-weight: 600;
+    font-size:16px;
+    position:relative;
+    padding: 5px 0;
+    transition: all 0.3s ease;
 }
 /*nav a{
     float:left;
